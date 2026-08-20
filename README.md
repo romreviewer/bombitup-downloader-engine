@@ -12,8 +12,6 @@ and runtime manifest before activating a downloaded engine.
 
 ## Source and licenses
 
-The pack build script and Android integration are maintained in the
-[BOMBitUP-v3 source project](https://gitlab.com/romreviewer2.0/BOMBiUP-v3).
 Runtime payloads are derived from
 [`io.github.deniscerri.youtubedl-android`](https://github.com/deniscerri/youtubedl-android),
 which incorporates [yt-dlp](https://github.com/yt-dlp/yt-dlp) and
