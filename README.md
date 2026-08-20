@@ -7,11 +7,6 @@ committed to Git history.
 Each release contains one pack for each supported Android ABI, a
 `grabber-video-downloader.json` configuration block, and `SHA256SUMS`.
 
-## Authenticity
-
-- Signing key ID: `engine-2026-01`
-- Ed25519 public key: `1035eb26ce0568c391cd125b1a3ca83c13e17a9abae72373e2dbc2f4b238de40`
-
 BOMBitUP verifies the declared size, SHA-256 digest, Ed25519 signature, ABI,
 and runtime manifest before activating a downloaded engine.
 
