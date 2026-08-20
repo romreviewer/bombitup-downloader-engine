@@ -19,3 +19,16 @@ which incorporates [yt-dlp](https://github.com/yt-dlp/yt-dlp) and
 
 Refer to those upstream projects for their source code and applicable license
 terms. Release assets must not be modified after signing.
+
+## Building from source
+
+The repository contains the Android engine wrapper, its unit tests, and the
+standalone pack-building script. Build the library with:
+
+```shell
+./gradlew testDebugUnitTest assembleRelease
+```
+
+Creating signed runtime packs requires an Ed25519 private key kept outside the
+repository. See `tools/build-engine-packs.sh` for the required environment
+variables. Never commit or upload the private key.
